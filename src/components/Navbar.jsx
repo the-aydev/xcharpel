@@ -10,12 +10,12 @@ const Navbar = () => {
   const closeMobileMenu = () => setToggleMenu(false);
 
   return (
-    <nav className='flex justify-between items-center h-20 bg-white text-black relative rounded-full shadow-md text-base font-bold mt-1'>
-      <a href='/' className='lg:pl-10 md:pl-3 sm:pl-1 pl-0'>
+    <nav className='flex justify-between items-center h-16 md:h-20 bg-white text-black relative rounded-full shadow-md text-base font-bold mt-3 md:mt-1'>
+      <a href='/' className='lg:pl-10 md:pl-8 pl-5'>
         <span className="font-manrope text-text-black md:text-2xl text-xl font-extrabold cursor-pointer">XCharpel</span>
       </a>
-      <div className="-mx-2 cursor-pointer lg:hidden sm:pr-0 md:pr-16 absolute top-5 right-4 z-20" onClick={handleClick}>
-        {toggleMenu ? <RiCloseLine /> : <RiMenu3Line />}
+      <div className="mr-2 cursor-pointer lg:hidden sm:pr-0 md:pr-16 absolute top-5 right-4 z-20" onClick={handleClick}>
+        {toggleMenu ? <RiCloseLine size={22} /> : <RiMenu3Line size={22} />}
       </div>
       {toggleMenu ? <div className="lg:hidden flex flex-col absolute bg-gray-200 z-10 w-full
       h-screen top-0 left-0 duration-500 ease-linear slide-bottom justify-center">

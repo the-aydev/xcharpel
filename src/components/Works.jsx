@@ -2,8 +2,8 @@ import React from 'react';
 
 const Works = ({ img, title, text }) => {
   return (
-    <div className='flex flex-col container'>
-      <div className="flex justify-center -mb-16 md:-mb-0">
+    <div className='flex flex-col container px-10 md:px-0'>
+      <div className="flex justify-center -mb-16 md:-mb-5">
         <img className='md:w-48 w-32 h-32 md:h-48' src={img} alt="img" />
       </div>
       <div className="flex justify-center pb-3 md:pb-0 md:mb-3 md:-my-20">

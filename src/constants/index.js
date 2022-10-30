@@ -28,37 +28,6 @@ export const navigation = [
   { name: 'Contact Us', href: '#contact' },
 ];
 
-export const propertyData = [
-  {
-    img: Residential1
-  },
-  {
-    img: Residential2
-  },
-  {
-    img: Residential3
-  },
-];
-
-export const typeOfProperty = [
-  {
-    type: "Residential Property",
-    href: '/'
-  },
-  {
-    type: "Commercial Property",
-    href: '/'
-  },
-  {
-    type: "Agriculture Property",
-    href: '/'
-  },
-  {
-    type: "Industrial Property",
-    href: '/'
-  },
-];
-
 export const testimony = [
   {
     review: Review1,
@@ -82,3 +51,7 @@ export const testimony = [
     city: 'Buffalo, NJ'
   }
 ];
+
+export const FACEBOOK_URL = 'https://www.facebook.com/';
+export const TWITTER_URL = 'https://twitter.com/';
+export const EMAIL_URL = 'mailto:xcharpel@gmail.com';

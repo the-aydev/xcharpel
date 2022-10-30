@@ -19,12 +19,6 @@ const Testimonial = () => {
           />
         ))}
       </div>
-
-      <div className="flex md:flex-row flex-col justify-between items-center pb-5">
-        <span className='text-[#333333] font-inter md:text-sm text-[0.65rem] md:px-5 px-1'>
-          Give us a Call 1-888-111-2222 and we can set you up, or <a className='text-blue-400 underline' href="/">check our pricing plans</a>
-        </span>
-      </div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-export { default as Head } from './Header.svg';
+export { default as Head } from './Header.jpeg';
 export { default as Property } from './Property.svg';
 export { default as Valuation } from './Valuation.svg';
 export { default as Research } from './Research.svg';
