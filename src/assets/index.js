@@ -1,0 +1,13 @@
+export { default as Head } from './Header.svg';
+export { default as Property } from './Property.svg';
+export { default as Valuation } from './Valuation.svg';
+export { default as Research } from './Research.svg';
+export { default as Residential1 } from './Residential1.svg';
+export { default as Residential2 } from './Residential2.svg';
+export { default as Residential3 } from './Residential3.svg';
+export { default as Review1 } from './Review1.svg';
+export { default as Review2 } from './Review2.svg';
+export { default as Review3 } from './Review3.svg';
+export { default as Dp1 } from './Dp1.svg';
+export { default as Dp2 } from './Dp2.svg';
+export { default as Dp3 } from './Dp3.svg';

@@ -1,11 +1,17 @@
-import React from "react";
+import React from 'react';
+import { Footer, Header, Navbar } from './components';
+import { About, Testimonial } from './containers';
 
-function App () {
+const App = () => {
   return (
-    <div className="App">
-      Hello
+    <div className='container mx-auto font-sans'>
+      <Navbar />
+      <Header />
+      <About />
+      <Testimonial />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
